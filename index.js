@@ -10,7 +10,7 @@ function nameToAttributes(drivers) {
         const objDrivers = {firstName: newDrivers[0], lastName: newDrivers[1]};
         return objDrivers;
     });
-} 
+}
 
 function attributesToPhrase(drivers) {
     return drivers.map(function (driver) {
